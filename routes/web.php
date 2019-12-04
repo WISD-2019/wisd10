@@ -78,7 +78,11 @@ Route::get('/gg/g1', function () {
 Route::get('/gg/g2', function () {
     return view('gg.g2');
 });
+
 Route::get('/jj/j1', function () {
     return view('jj.j1');
+});
+Route::get('/ii/i1', function () {
+    return view('ii.i1');
 });
 
