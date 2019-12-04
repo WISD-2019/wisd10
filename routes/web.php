@@ -43,3 +43,11 @@ Route::get('/cc/c1', function () {
 Route::get('/cc/c2', function () {
     return view('cc.c2');
 });
+
+Route::get('/ff/f1', function () {
+    return view('ff.f1');
+});
+
+Route::get('/ff/f2', function () {
+    return view('ff.f2');
+});
